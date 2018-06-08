@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Echo Chambers</title>
+    <title>Quatropolis</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">CS 377I Project 1: Fake News Explained</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CS 377I Project 3: Navigating Complexity</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#motivation">Motivation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+              <a class="nav-link js-scroll-trigger" href="#motivation">Gameplay</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#challenges">Challenges</a>
             </li>
             <!--<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Process</a>
@@ -61,10 +61,10 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">an interactive exploration of</div>
-          <div class="intro-heading text-uppercase">Echo Chambers</div>
+          <div class="intro-heading text-uppercase"></div>
+          <!--<div class="intro-lead-in"><br/><br/>a game of local politics and housing policy</div>-->
 
-          <a class="btn btn-primary btn-xl text-uppercase" href="https://cs-377i-fake-news.firebaseapp.com/demo/" target="_blank">view our simulator</a>
+          <!--<a class="btn btn-primary btn-xl text-uppercase" href="https://cs-377i-fake-news.firebaseapp.com/demo/" target="_blank">view our simulator</a>-->
         </div>
       </div>
     </header>
@@ -73,7 +73,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Content curation algorithms hide truth from the user in the name of personal relevance.<br/><br/>We built an interactive newsfeed simulator to show new social media users how these echo chambers are made.</h2> <br/>
+            <h2 class="section-heading">Tabletop games can model complex systems and allow players to try on a persona for a short period of time.<br/><br/>We built Quatropolis, a four-player game centered around real-world issues, to help players understand something that affects all of us: housing policies and local government decision-making.<br/><br/>Through resource acquisition, collaboration, debate, voting, and even deceit, players gain an understanding of how four parties - renters, landlords, private interests, and government institutions - each affect local policy.</h2> <br/>
             <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
           </div>
         </div>
@@ -85,8 +85,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Motivation</h2>
-            <h3 class="section-subheading text-muted">where does our simulator fit into the fake news cycle?</h3>
+            <h2 class="section-heading text-uppercase">Gameplay</h2>
+            <h3 class="section-subheading text-muted">In Quatropolis, there are four players: a landlord, a renter, a private corporation, and a city official. Each player starts the game by drawing two objectives and one enemy, kept secret unless the player decides to disclose them. Their goal is to achieve their objectives, ideally by as wide a margin as possible, while preventing their enemy from achieving their enemy's objectives.
+              <br/><br/>This sequence of events makes up a single "issue cycle", of which there are 7 over the course of the game. Each "issue cycle" is centered around a particular issue card, and each player has different strengths and weaknesses they can exercise over the course of this cycle.</h3>
           </div>
         </div>
         <div class="row">
@@ -98,10 +99,10 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>News on Social Media</h4>
+                    <h4>Resource Acquisition</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Citizens consume a large portion of their news via algorithmically-curated social media feeds.</p>
+                    <p class="text-muted">There are two types of resources in Quatropolis: money and influence. Each can be used to vote on issues, but different players acquire and spend them in different ways at the beginning of each cycle.</p>
                   </div>
                 </div>
               </li>
@@ -111,10 +112,10 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>An Echo Chamber is Born</h4>
+                    <h4>Issue Debate</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Algorithms track user interaction and show content similar to that which they've clicked in the past, amplifying a user's own initial biases and reflecting the biases of their peer groups.</p>
+                    <p class="text-muted">After everyone has received their resources for the cycle, an issue card is revealed, which will have some impact on Quatropolis' four states (rent, public amenities, property tax, and population), and thus be favorable or disfavorable depending on players' objectives. It is up to the players to debate the issue and attempt to win over the others!</p>
                   </div>
                 </div>
               </li>
@@ -124,10 +125,10 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>Fake and Misleading Posts</h4>
+                    <h4>Resource Funneling</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Satirical and outright false news stories enter the system for the profit and/or amusement of their authors.</p>
+                    <p class="text-muted">Before voting occurs, players who aren't allowed to spend money on elections (the landlord and the tenant) have the option to give their money to those who can (the city official and the private corporation), if they think those powers will use the resources in ways that help them.</p>
                   </div>
                 </div>
               </li>
@@ -137,61 +138,21 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>You Don't Know What You Don't Know</h4>
+                    <h4>Voting</h4>
                     <!--<h4 class="subheading">Prototype Development</h4>-->
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Users lack exposure to a broad sampling of contextualized news, making it difficult to distinguish fact from fiction. They see and share articles which reflect and reinforce their worldview, even if they may be false.</p>
+                    <p class="text-muted">Finally, everyone votes on the issue at hand in a semiblind vote. A majority of resources spent on one side or the other wins, and the game states are updated accordingly.</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                    <h4>Fake
-                      <br>news
-                      <br>spreads</a></h4>
+                    <h4><br>Repeat!</h4>
                   </button>
                 </div>
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section id="overview">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Overview</h2> <br/>
-            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Problem</h4>
-            <p class="text-muted">As our class explored the rise of fake news, our team focused how online echo chambers spread it. Our research showed that <strong>new social media users didn't know why they were exposed to certain content</strong> or how their social media interactions could be affecting their worldview.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-check fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Solution</h4>
-            <p class="text-muted">We decided to build a newsfeed simulator. We wanted to <strong>mimic the way social media sites curate content</strong> based on user interactions, but do so transparently so a new social media user could obeserve exactly how their online behavior affects their exposure to certain types of posts.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Approach</h4>
-            <p class="text-muted">Our team of three had four weeks to learn as much as we could about the problem space, refine our goal, and prototype a solution. We used a variety of <strong>system modeling and design techniques</strong> in order to do so, and our process is outlined below.</p>
           </div>
         </div>
       </div>
@@ -295,6 +256,46 @@
       </div>
     </section>
 
+    <!-- Services -->
+    <section id="challenges">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Challenges</h2> <br/>
+            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Production Timeline</h4>
+            <p class="text-muted">From the beginning, we knew we had to make intentional decisions about how we used our time. We knew we wanted to make major improvements to the physical game prototype itself, but we also wanted to revisit some of the fundamentals of gameplay and redesign the game's aesthetic - and since print shops and game production sites require turnaround time, we couldn't do everything we wanted in just a few weeks.</p>
+            <p class="text-muted">We ended up taking a middle ground: we invested most of our time in improving gameplay and aesthetic design, but were able to produce a prototype close to the quality we were looking for by making and purchasing pieces ourselves à la carte (and rushing a Kinko's order!).</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Game Mechanics and Playtesting</h4>
+            <p class="text-muted">One of the biggest challenges we faced was making sure that we had correctly accounted for all the possible states of the game, to avoid any unwinnable states or other undesirable behavior, in the context of limited testing opportunities.</p>
+            <p class="text-muted">Because our game currently takes an hour to play - and doing so for the first time takes even longer - it was difficult to find volunteers willing to playtest our game all the way through. Instead, we were forced to test different "playable slices" on different groups of people. Combined with the playtesting we did in P2, we did feel like we had enough information to make the decisions we needed to make about game mechanics, but it would have been much better if we could have found volunteers who we didn't know who were willing to sit through the entire game during week 9 of the quarter in particular.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-list fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Extracting Feedback</h4>
+            <p class="text-muted">Our team had a strong vision for the types of conditions under which our game would truly shine. Our game has great potential for strategic play - we observed this when Kylie, a past collaborator, made some interesting strategic decisions during a playtest - but it is hard to do so without more familiarity with the game than any of our other playtesters had. In addition, we had limited time, attention, and emotional investment during our playtests. This made it hard to necessarily feel like we were getting the right kind of feedback from our testing. It was also hard to be sure which feedback we got was relevant to the onboarding process, and which was relevant to the fundamental game mechanics. We ultimately solved this problem by triaging feedback, but testing with more familiar audiences and under conditions more similar to ideal gameplay would have been helpful.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Process -->
     <!--<section id="about">
       <div class="container">
@@ -390,11 +391,12 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Ellen Blaine</h4>
-              <p class="text-muted">Coterm, M.S. Computer Science</p>
+              <h4>Stefan Swaans</h4>
+              <p class="text-muted">Class of 2018, B.S. Computer Science</p>
+              <p>Gameplay Mechanics Lead</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/ellen-blaine-a95432a2/" target="_blank">
+                  <a href="https://www.linkedin.com/in/stefanswaans/" target="_blank">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -406,6 +408,7 @@
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
               <h4>Julia Daniel</h4>
               <p class="text-muted">Coterm, M.S. Computer Science</p>
+              <p>Research and Documentation Lead</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.linkedin.com/in/jnudaniel/" target="_blank">
@@ -420,6 +423,7 @@
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Miguel Taruc</h4>
               <p class="text-muted">Class of 2019, B.S. Computer Science</p>
+              <p>Graphical Design Lead</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.linkedin.com/in/miguel-patrick-taruc-92084a128/" target="_blank">
@@ -436,33 +440,8 @@
           </div>-->
         </div>
       </div>
-    </section>
-
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
+      <div class="col-lg-12 text-center">
+        <h3 class="section-subheading text-muted">Special thanks to Kylie Jue for her contributions to the original iteration of Quatropolis.</h3>
       </div>
     </section>
 
@@ -471,7 +450,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <span class="copyright">Created by Julia Daniel, Ellen Blaine, and Miguel Taruc</span>
+            <span class="copyright">Created by Julia Daniel, Stefan Swaans, and Miguel Taruc</span>
           </div>
           <div class="col-md-3">
           </div>
