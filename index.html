@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Echo Chambers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CS 377I Project 1: Fake News Explained</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#motivation">Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Process</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Process</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">an interactive exploration of</div>
+          <div class="intro-heading text-uppercase">Echo Chambers</div>
+
+          <a class="btn btn-primary btn-xl text-uppercase" href="https://cs-377i-fake-news.firebaseapp.com/demo/" target="_blank">view our simulator</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="statement">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Content curation algorithms hide truth from the user in the name of personal relevance.<br/><br/>We built an interactive newsfeed simulator to show new social media users how these echo chambers are made.</h2> <br/>
+            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motivation -->
+    <section class="bg-light" id="motivation">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Motivation</h2>
+            <h3 class="section-subheading text-muted">where does our simulator fit into the fake news cycle?</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>News on Social Media</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Citizens consume a large portion of their news via algorithmically-curated social media feeds.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>An Echo Chamber is Born</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Algorithms track user interaction and show content similar to that which they've clicked in the past, amplifying a user's own initial biases and reflecting the biases of their peer groups.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Fake and Misleading Posts</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Satirical and outright false news stories enter the system for the profit and/or amusement of their authors.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>You Don't Know What You Don't Know</h4>
+                    <!--<h4 class="subheading">Prototype Development</h4>-->
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Users lack exposure to a broad sampling of contextualized news, making it difficult to distinguish fact from fiction. They see and share articles which reflect and reinforce their worldview, even if they may be false.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>Fake
+                      <br>news
+                      <br>spreads</a></h4>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Overview</h2> <br/>
+            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Problem</h4>
+            <p class="text-muted">As our class explored the rise of fake news, our team focused how online echo chambers spread it. Our research showed that <strong>new social media users didn't know why they were exposed to certain content</strong> or how their social media interactions could be affecting their worldview.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Solution</h4>
+            <p class="text-muted">We decided to build a newsfeed simulator. We wanted to <strong>mimic the way social media sites curate content</strong> based on user interactions, but do so transparently so a new social media user could obeserve exactly how their online behavior affects their exposure to certain types of posts.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Approach</h4>
+            <p class="text-muted">Our team of three had four weeks to learn as much as we could about the problem space, refine our goal, and prototype a solution. We used a variety of <strong>system modeling and design techniques</strong> in order to do so, and our process is outlined below.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Process</h2>
+            <h3 class="section-subheading text-muted">a deeper look into the skills and techniques we used</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/interview-sm.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Interviewing</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/model-fancy.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Research and Modeling</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/ideate.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Ideation</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/protos-all.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Prototyping</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/refinement.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Testing and Refinement</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/process/final.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Final Result</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <!--<section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Process</h2>
+            <h3 class="section-subheading text-muted">a week-by-week breakdown of our work</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Week 1</h4>
+                    <h4 class="subheading">Preliminary Research</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"></p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Week 2</h4>
+                    <h4 class="subheading">System Modeling</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"></p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Week 3</h4>
+                    <h4 class="subheading">Ideation</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"></p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Week 4</h4>
+                    <h4 class="subheading">Prototype Development</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"></p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>Final
+                      <br>Prototype
+                      <br>Demo</a></h4>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- Team -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Team</h2><br/>
+            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Ellen Blaine</h4>
+              <p class="text-muted">Coterm, M.S. Computer Science</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/ellen-blaine-a95432a2/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Julia Daniel</h4>
+              <p class="text-muted">Coterm, M.S. Computer Science</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/jnudaniel/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <h4>Miguel Taruc</h4>
+              <p class="text-muted">Class of 2019, B.S. Computer Science</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/miguel-patrick-taruc-92084a128/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--<div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <span class="copyright">Created by Julia Daniel, Ellen Blaine, and Miguel Taruc</span>
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="http://cs377i.stanford.edu/" target="_blank"><strong>CS 377I: Designing Systems for Humans</strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Interviewing</h2><br/>
+                  <p>We conducted 7 interviews with people both affiliated and unaffiliated with Stanford. We asked participants about their thoughts on the concept of fake news as well as about their own news consumption and social media behavior.</p>
+                  <p>We noticed a few particularly interesting points. Multiple interviewees talked about clickbait and echo chambers, which ended up becoming the focus of our eventual simulation. In addition, many people talked with skepticism about their own news consumption habits. It seemed that people with a good deal of experience on social media had a sufficiently nuanced understanding of how algorithms suggest content based on past behavior, which eventually pushed us to design a solution aimed primarily at new social media users who might now know as much.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/process/interview.png" alt="">
+                  <p>We noted down each interesting insight on a post-it, and then cluster-mapped all the post-its by topic. We then distilled the main takeaways from each topic cluster. Finally, we used these distilled post-its to build a preliminary model of the causes and effects of fake news' viral spread. In this way, all our insights and models came directly from our interview participants' data.</p>
+                  <ul class="list-inline">
+                    <li><a href="https://drive.google.com/a/stanford.edu/file/d/1KlRNnqjWv61m2HZqqVizv6wslFCdvsJ_/view?usp=sharing" target="_blank">View our full interview notes</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Research and Modeling</h2>
+                  <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                  <br/><p>We conducted secondary research using published works in order to gain a broader academic understanding of the fake news ecosystem. Based on our findings, we wrote a page-long <a href="https://docs.google.com/document/d/12Q122gZKaz2wyZYiPDuuXSAXyarYF2p-DYxAQAcB5ps/edit?usp=sharing" target="_blank">problem statement</a> outlining the context for our work.</p>
+                  </p>Several key findings stood out to us at this point. We noted the tension in how 'value-neutral' algorithms can cause systematically negative phenomena, and discussed the role of sensationalism in user engagement and content curation. At this point, we were interested in exploring the concept of satire, and how satirical news without proper context can be interpreted as truth and can thus function as both a detector of uncritical echo chambers, and an unwitting reinforcer of the same.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/process/model-fancy.png" alt="">
+                  <p>Finally, we combined our interview findings and secondary research findings to refine our system model. The above diagram is our resulting attempt to portray the smaller feedback loop of a piece of content going viral, within the larger feedback loop of social media, sensationalism, decontextualization, misinformation, mistrust, and socio-political toxicity.</p>
+                  <ul class="list-inline">
+                    <li><a href="https://docs.google.com/document/d/12Q122gZKaz2wyZYiPDuuXSAXyarYF2p-DYxAQAcB5ps/edit?usp=sharing" target="_blank">View our full problem statement document</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Ideation</h2><br/>
+                  <img class="img-fluid d-block mx-auto" src="img/process/ideation-fixed.png" alt="">
+                  <p>Having conducted primary and secondary research into the concept of fake news, we were now tasked with creating an infographic of some kind to illustrate one aspect of our findings. We used the 12-6-2 method to generate and refine ideas. We first each wrote 12 ideas out on post-its, from the boring to the outlandish. Then we chose six of them to develop slightly further on index cards. Finally, we chose two to sketch out on printer paper. We generated a variety of ideas - from a mock newspaper that instead informed the reader about fake news, to a carrier-pigeion-shaped diagram of how information spreads. Some of these ideas made it further than others in our design process...</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Prototyping</h2><br/>
+                  <p>Between the three of us, we built four low-fidelity prototypes that emerged directly from our ideation (below). The first was a fake news feed infographic with pop-outs that explain how to identify fake news. The second was an interactive news feed simulator that shows the user 3 posts at a time and tracks the user's real and potential interests based on which post they click, updating the new posts shown based on demonstrated interest. The third was an interactive digital prototype that tested whether users noticed the advertisements they were shown changing based on their post interaction behavior. The fourth was a mock news article that discussed fake news.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/process/protos-all.png" alt="">
+                  <p>We decided to go with an interactive prototype because we wanted to tap into new social media users' interest in the fun and novelty of playing around on social media. We ultimately chose to further develop the second idea, the interactive news feed simulator. We wanted to pull away the curtain of mystery that normally obscures content curation algorithms in order to illustrate dramatically in real-time how a new user can turn their online experience from balanced to an echo chamber quite quickly, and how once their feed is an echo chamber and the algorithm has profiled their interests, fake news proliferates in front of their eyes.</p>
+                  <p>We chose PolymerJS for its large library of reusable components, which makes it an excellent tool for rapid prototyping.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Testing and Refinement</h2><br/>
+                  <img class="img-fluid d-block mx-auto" src="img/process/refinement.png" alt="">
+                  <p>Echo chambers are a broad topic. Even after narrowing the solution to the two-part display we have made, we found it challenging to identify the most important features and visual elements to include, and refine them to best impart our desired takeaway on the user.</p>
+                  <p>Our final product UI does not mimic any social media site all that closely, but this is intentional. We found during user testing a paper prototype that a traditional vertical layout would bias content selection toward posts at the top. The pie chart was also a later addition. Initially, we simply listed possible interests as keywords, but we learned from users that they were less likely to read an overwhelmingly long list of topics. We toyed with the idea of a hand-drawn representation of the brain, but settled on the pie because it is more faithful to how an algorithm’s idea of a user would change over time.</p>
+                  <p>Testing with users (even after our final demo) also revealed that simplicity along with pop-up commentary modals was effective, especially in our exaggeration of the effects of user interactions on our algorithm. Styling of our page was also an important factor, as users perceived a cleaner interface to be more impactful, so we made efforts to better align posts and improve the simulator's visual hierarchy.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Final Result</h2><br/>
+                  <p>Our product eventually took the form of a simple, interactive web app meant for users who are new to or not yet familiar with social media. The app gives users a sense of how their clicks determine the content they see. We explain the math behind our algorithm in plain English, and empower the user via encouraging words and real machine learning terms. Different interactions with posts produce slightly different results: sharing changes the pie most drastically, commenting changes it a moderate amount, and liking only slightly changes it. We chose this audience and branding to provide clarity and utility to new social media users, who seemed from our research to need this kind of tool the most.</p>
+                  <p>Most importantly, we illustrate how real news can be permanently hidden from the user with a pie chart animation, which represents the probability of seeing each type of post. The slices balance out such that clicking on content from any 1-2 of the 3 categories enough times will always ensure the third probability goes to zero. Before the user's eyes, an echo chamber is quickly created, and the incidence of fake news posts increases. Echo! Echo!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/process/final.png" alt="">
+                  <ul class="list-inline">
+                    <a class="btn btn-primary btn-xl text-uppercase" href="https://cs-377i-fake-news.firebaseapp.com/demo/" target="_blank">view our simulator</a>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
